@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+* {
+
+    font-family: "DotGothic16", sans-serif;
+    background-color:white;
+
+}
+
+body {
+
+    margin: 15px 160px;
+}
+
+
+#titulo {
+
+    font-size: 45px;
+
+}
+
+.subtitulo {
+
+    font-size: 25px;
+
+}
+
+.the_container {
+
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container1 {
+
+    width: 25%;    
+    margin-bottom: 15%;
+
+}
+
+.container2 {
+
+    width: 75%;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+
+header{
+
+    margin-bottom: 40px;
+    margin-top: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.info2{
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+    display: flex;
+
+
+}
+
+
+.info {
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+
+}
+
+.info a {
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+.info i {
+
+    vertical-align: middle;
+}
+
+.imagens img {
+
+    border-radius: 50%;
+
+}
+
+.imagens a {
+
+    text-decoration: none;
+
+}
+
+.imagens #avatar {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+}
+
+#avatar img {
+
+    border-radius: 50%;
+
+}
+
+.list {
+
+    display: flex;
+    gap: 20px;
+
+}
+
+.container-hm{
+
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ho {
+
+    width: 50%;
+
+}
+
+.ha {
+
+    width: 50%;
+
+}
