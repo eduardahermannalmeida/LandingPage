@@ -95,9 +95,42 @@ header{
     vertical-align: middle;
 }
 
+
 .imagens img {
 
     border-radius: 50%;
+
+}
+
+
+.imagens #pn{
+
+    margin-right:50px;
+}
+
+.imagens #pc {
+
+    margin-right:50px;
+    
+}
+.imagens #pn:hover{
+
+    transition: 0.2s;
+    box-shadow: 0 0 10px #57a0ff, 0 0 40px #57a0ff, 0 0 80px #57a0ff;
+
+}
+
+.imagens #pc:hover{
+
+
+    transition: 0.2s;
+    box-shadow: 0 0 10px #e1d078, 0 0 40px #e1d078, 0 0 80px #e1d078;
+}
+
+.imagens #ppl:hover{
+
+    transition: 0.2s;
+    box-shadow: 0 0 10px #312857, 0 0 40px #312857, 0 0 80px #312857;
 
 }
 
@@ -113,6 +146,7 @@ header{
     align-items: center;
     justify-content: center;
     flex-direction: center;
+
 }
 
 #avatar img {
